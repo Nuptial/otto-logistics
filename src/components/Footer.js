@@ -16,7 +16,7 @@ function Footer() {
   const position = [36.1627, -86.7816]; // Nashville coordinates
 
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer-content">
         <div className="footer-sections-container">
           <div className="footer-section">
