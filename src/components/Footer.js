@@ -13,7 +13,7 @@ L.Icon.Default.mergeOptions({
 });
 
 function Footer() {
-  const position = [36.1627, -86.7816]; // Nashville coordinates
+  const position = [36.1657, -86.7824]; // Updated Nashville coordinates for 501 Union St
 
   return (
     <footer className="footer" id="contact">
@@ -29,9 +29,9 @@ function Footer() {
             </p>
             <p className="address">
               <strong>Address:</strong><br />
-              315 DEADERICK ST<br />
-              STE 1700, PMB 25<br />
-              NASHVILLE, TN 37238
+              501 UNION ST<br />
+              STE 405<br />
+              NASHVILLE, TN 37219
             </p>
           </div>
           <div className="footer-section map-section">
@@ -47,8 +47,8 @@ function Footer() {
               <Marker position={position}>
                 <Popup>
                   Otto Logistics<br />
-                  315 DEADERICK ST<br />
-                  NASHVILLE, TN 37238
+                  501 UNION ST<br />
+                  NASHVILLE, TN 37219
                 </Popup>
               </Marker>
             </MapContainer>
