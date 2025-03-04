@@ -24,8 +24,8 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-brand">
-        <img src={logo} alt="Otto Logistics Logo" className="logo" />
-        <span>Otto Logistics</span>
+        <img src={logo} alt="Otto Logistics Logo" className="logo" style={{ transform: 'scale(3)' }}/>
+        <span style={{ marginLeft: '20px' }}>Otto Logistics</span>
       </div>
       <div className={`nav-menu ${isOpen ? 'active' : ''}`}>
         <a href="#services" onClick={(e) => scrollToSection(e, '#services')}>Services</a>
